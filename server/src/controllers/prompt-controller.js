@@ -19,6 +19,7 @@ module.exports = {
             return res.status(400).json({
                 success: false,
                 error: error.response ? error.response : 'Something went wrong',
+                // if ternário
         })
     }
 
